@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR BAŞLANGIÇ */
+
+.mylogo {
+  width: 100px;
+  height: 100px;
+  margin: 15px 100px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+  margin-left: 30px;
+  padding: 8px;
+  border-radius: 7%;
+}
+
+.navbar a:hover {
+  color: #5cb85c;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 0 0;
+}
+
+.dropdown-menu:hover a {
+  background-color: transparent;
+}
+.dropdown .dropdown-toggle :hover {
+  color: #5cb85c !important;
+}
+
+/* HAMBURGER MENÜ SİYAH YAPMA İŞLEM KISMI */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* NAVBAR BİTİŞ */
+
+/* SECİTON BAŞLANGIÇ  */
+
+.pricing-plan {
+  width: 370px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px;
+  margin-top: 8em;
+}
+
+.pricing-plan--highlighted {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+}
+
+.pricing-plan__special-text {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1f7d1f;
+  box-sizing: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.pricing-plan__header {
+  padding: 25px;
+  background-color: #289928;
+  color: #ffffff;
+}
+
+.pricing-plan__title,
+.pricing-plan__summary {
+  margin: 0;
+  text-align: center;
+}
+
+.pricing-plan__title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.pricing-plan__summary {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.pricing-plan__description {
+  padding: 25px;
+}
+
+.pricing-plan__list {
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-plan__feature {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 0.9;
+}
+
+.pricing-plan__feature:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.pricing-plan__feature::before {
+  color: #289928;
+  position: absolute;
+  left: 0;
+}
+
+.pricing-plan__feature i {
+  color: #289928;
+  margin: 0 0.5em 0 0;
+}
+
+.pricing-plan__actions {
+  padding: 25px;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-plan__button {
+  display: inline-block;
+  margin: 15px auto;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #289928;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #289928;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+}
+
+.pricing-plan__button:hover {
+  background-color: #289928;
+  color: #ffffff;
+}
+
+.pricing-plan__cost {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+}
+
+.pricing-plan__text {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.pricing-plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* SECİTON BİTİŞ  */
+
+/* FOOTER BAŞLANGIÇ */
+
+footer {
+  background-color: #289928;
+  color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  max-width: 300px;
+  text-align: left;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer-section h2 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.sosyal-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.sosyal-icons #facebook:hover {
+  color: #3b5998;
+}
+
+.sosyal-icons #instagram:hover {
+  color: #dd2a7b;
+}
+
+.sosyal-icons #twitter:hover {
+  color: #00aced;
+}
+
+.sosyal-icons #youtube:hover {
+  color: #bb0000;
+}
+
+/* FOOTER BİTİŞ */
+
+/* RESPONSİVE BAŞLANGIÇ */
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer .footer-section {
+    text-align: center;
+  }
+}
+
+/* RESPONSİVE BİTİŞ */

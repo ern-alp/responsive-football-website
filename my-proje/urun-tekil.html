@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- CSS DAHİL ETME KISMI -->
+  <link rel="stylesheet" href="asset/css/main.css" />
+  <!-- BOOTSTRAP DAHİL ETME KISMI -->
+  <link rel="stylesheet" href="asset/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <!-- FONTAWSOME CDN KISMI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- FAVİCON KISMI -->
+  <link rel="website icon" type="png" href="asset/icon/top.png" />
+  <title>Sadece Futbol</title>
+</head>
+
+<body>
+
+  <!-- HEADER BAŞLANGIÇ -->
+
+  <header class="header">
+    <a href="anasayfa.html">
+      <img src="asset/image/logo.png" alt="logo" class="mylogo" />
+    </a>
+
+    <!-- NAVBAR BAŞLANGIÇ -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="anasayfa.html">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="hakkımzda.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Hizmetlerimiz
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="yayın-hakları.html">Yayın Hakları</a></li>
+                <li><a class="dropdown-item" href="soyunma-odaları.html">Soyunma Odaları</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ürünlerimiz
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="urun-tekil.html,">Kromponlar</a></li>
+                <li><a class="dropdown-item" href="toplar.html">Toplar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rezervasyon-formu.html">Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR BİTİŞ -->
+
+  </header>
+
+  <!-- HEADER BİTİŞ -->
+
+  <!-- SLİDER BAŞLANGIÇ -->
+
+  <div id="carousel_urun_tekil" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel_urun_tekil" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel_urun_tekil" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel_urun_tekil" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner h-100">
+      <div class="carousel-item h-100 active">
+        <img src="asset/image/krampon-slider1.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item h-100">
+        <img src="asset/image/krampon-slider2.png" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item h-100">
+        <img src="asset/image/krampon-slider3.png" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_urun_tekil" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel_urun_tekil" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- SLİDER BİTİŞ -->
+
+  <!-- ÜRÜN KARTLARI BAŞLANGIÇ -->
+
+  <div class="container py-5">
+    <p class="h2 text-center my-3">YENİ SEZON ADİDAS KRAMPONLARI</p>
+
+    <div class="row mb-5 g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon1.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>X Crazyfast League</h4>
+            <p>Belirli Oranda Geri Dönüştürülmüş Malzemelerle Üretilen, Hafif Krampon</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$5000</span></small>$4000
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon2.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>Copa Pure II League</h4>
+            <p>Konforlu Ve Şık Adidas Copa Pure II</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$1500</span></small>$600
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon11.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>X Crazyfast Club</h4>
+            <p>Hafif Adidas X Crazyfast</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$2500</span></small>$2000
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon3.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>Copa Pure II Elite Yumuşak</h4>
+            <p>Maça Gerçekten Hükmedebilmen İçin Takım Arkadaşlarına Yakın Olman Gerekir.</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$2500</span></small>$2000
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="h2 text-center my-3">%50 İNDİRİMLİ ADİDAS KRAMPONLARI</p>
+
+    <div class="row mb-5 g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon4.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>X Crazyfast.3 </h4>
+            <p>Rakiplerini Şaşırtmaya Ne Dersin? Adidas X Crazyfast İle Maça Yüklen.</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$5000</span></small>$2500
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon5.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>Copa Gloro</h4>
+            <p>Konforlu Deri Üst Yüzeyi İle Ayağın Şekline Uyum
+              Sağlar.</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$10000</span></small>$5000
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon12.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>Predator 24 Club</h4>
+            <p>Maç Demek Gol Demektir Ve Bu Krampon Fileyi Bulan Şutlar İçin Tasarlanmıştır.</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$1000</span></small>$500
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-image-top">
+            <img src="asset/image/krampon6.png" alt="" class="w-100" />
+          </div>
+          <div class="card-body">
+            <h4>Derportivo II</h4>
+            <p>Futbol Performansını Ortaya Koyman İçin Mükemmel Bir Krampon.</p>
+            <div class="bottom-details">
+              <div class="price">
+                <small id="small-price"><span>$8000</span></small>$4000
+              </div>
+              <div class="links">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ÜRÜN KARTLARI BİTİŞ -->
+
+  <!-- FOOTER BAŞLANGIÇ -->
+
+  <footer>
+    <div class="footer-section">
+      <h2>Yerler</h2>
+      <ul>
+        <li>Ankara</li>
+        <li>İstanbul</li>
+        <li>İzmir</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h2>Bize Ulaşın</h2>
+      <p>+905555555555</p>
+      <p>eren50674@gmail.com</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="footer-section">
+      <h2>Bizi Takip Edin</h2>
+      <div class="sosyal-icons">
+        <a href="https://www.facebook.com/?locale=tr_TR" target="_blank" class="icon" id="facebook"><i
+            class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="icon" id="instagram"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/?logout=1708341266198" target="_blank" class="icon" id="twitter"><i
+            class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com" target="_blank" class="icon" id="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER BİTİŞ -->
+
+  <!-- BOOTSTRAP DAHİL ETME KISMI -->
+  <script src="asset/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

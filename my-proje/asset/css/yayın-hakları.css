@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR BAŞLANGIÇ */
+
+.mylogo {
+  width: 100px;
+  height: 100px;
+  margin: 15px 100px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+  margin-left: 30px;
+  padding: 8px;
+  border-radius: 7%;
+}
+
+.navbar a:hover {
+  color: #5cb85c;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 0 0;
+}
+
+.dropdown-menu:hover a {
+  background-color: transparent;
+}
+.dropdown .dropdown-toggle :hover {
+  color: #5cb85c !important;
+}
+
+/* HAMBURGER MENÜ SİYAH YAPMA İŞLEM KISMI */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* NAVBAR BİTİŞ */
+
+/* YAYIN HAKLARI BAŞLANGIÇ */
+
+#yayın-hakları {
+  position: relative;
+  top: 4.5em;
+  left: 0.5em;
+  width: 7.4em;
+  padding: 0.3em;
+  margin: 0.2em;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  background-color: #289928;
+  color: #ffffff;
+}
+
+/* YAYIN HAKLARI İMAGE BAŞLANGIÇ */
+.image-container {
+  position: relative;
+  top: 8.1em;
+}
+
+.image-container img {
+  width: 100%;
+  height: 50vh;
+}
+
+.category {
+  position: relative;
+  top: 9em;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(239, 236, 236);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+/* FOOTER BAŞLANGIÇ */
+
+footer {
+  background-color: #289928;
+  color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 12em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  max-width: 300px;
+  text-align: left;
+}
+
+.content {
+  padding: 20px;
+}
+
+.footer-section h2 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.sosyal-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.sosyal-icons #facebook:hover {
+  color: #3b5998;
+}
+
+.sosyal-icons #instagram:hover {
+  color: #dd2a7b;
+}
+
+.sosyal-icons #twitter:hover {
+  color: #00aced;
+}
+
+.sosyal-icons #youtube:hover {
+  color: #bb0000;
+}
+
+/* FOOTER BİTİŞ */
+
+/* RESPONSİVE BAŞLANGIÇ */
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer .footer-section {
+    text-align: center;
+  }
+}
+
+/* RESPONSİVE BİTİŞ */
